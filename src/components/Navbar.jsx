@@ -60,10 +60,10 @@ const Navbar = () => {
                             </a>
                         </div>
 
-                        <a href="#" class=" whitespace-nowrap text-base  text-gray-500 hover:text-gray-900">
+                        <NavLink to="register" class=" whitespace-nowrap text-base  text-gray-500 hover:text-gray-900">
                             <img class="m-1 inline-block h-5 w-5 rounded-full ring-2 ring-white" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="" />
                             Sign in
-                        </a>
+                        </NavLink>
                         <a href="#" class=" mx-4 whitespace-nowrap text-base  text-red-800 hover:text-gray-900"> Cart
                             ( 0 )
                         </a>

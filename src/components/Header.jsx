@@ -16,12 +16,12 @@ const Header = () => {
 
                 <div class="flex justify-center items-center">
 
-                    <button class="group-hover:bg-opacity-90 hover:bg-gray-100 p-6 px-12 mt-8 p-3 border-2 border-white 
+                    <button class="group-hover:bg-opacity-90 hover:bg-gray-100  hover:text-red-600 text-md font-semibold text-gray-50 p-6 px-12 mt-8 p-3 border-2 border-white 
                     ">
-                        <span class="text-md font-semibold text-gray-50 hover:text-red-600">
+                   
 
                         Shop the collection
-                        </span>
+                 
                     </button>
                 </div>
             </div>

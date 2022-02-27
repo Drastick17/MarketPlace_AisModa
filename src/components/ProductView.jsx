@@ -19,7 +19,7 @@ const ProductView = () => {
               <div class="slider">
                 <div class="slide-ana lg:relative">
                   <div class="flex" >
-                    <img src="https://i.ibb.co/fMGD6ZC/eugene-chystiakov-3ne-Swyntb-Q8-unsplash-1-removebg-preview-3-1.png" alt="A black chair with wooden legs" class="w-full h-full" />
+                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="A black chair with wooden legs" class="w-full h-full" />
                   </div>
 
                 </div>
