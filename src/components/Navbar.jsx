@@ -7,7 +7,7 @@ const Navbar = () => {
 
             <div class="max-w-7xl mx-auto my-5 px-4 sm:px-6 ">
                 <div class="min-w-full flex  py-6 md:justify-between  md:space-x-10">
-                    <input class="border-b-2 hover:border-b-3 border-red-800 w-1/4" type="text" placeholder='Searsh..' />
+                    <input class="leading-none focus:outline-none border-b-2 hover:border-b-3 border-red-800 w-1/4" type="text" placeholder=' Searsh..' />
 
                     <a class="self-start" href="#">
                         <div class="flex justify-center ">
