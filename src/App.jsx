@@ -1,17 +1,24 @@
-import Categories from "./components/Categories";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import HomePage from "./components/HomePage";
 import Navbar from "./components/Navbar";
-import ProductList from "./components/ProductList";
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import ProductView from "./components/ProductView";
 function App() {
   return (
     <>
-      <Navbar/>
-      <Header/>
-      <Categories/>
-      <ProductList/>
-      <Footer/>
+      <Router>
+
+        <Navbar />
+
+        <Routes>
+
+          <Route path="/" element={<HomePage />}/>
+          <Route path="productview/" element={<ProductView/>}/>
+
+        </Routes>
+
+        <Footer />
+      </Router>
     </>
   );
 }
