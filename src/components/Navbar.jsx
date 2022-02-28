@@ -12,7 +12,9 @@ const Navbar = () => {
                     <a class="self-start" href="#">
                         <div class="flex justify-center ">
                             <div class="flex justify-center items-center">
+                                <Link to="MarketPlace_AisModa/">
                                 <span class=" pt-1 mx-3 whitespace-nowrap text-4xl italic font-light text-red-700 hover:text-gray-900">AisModa.</span>
+                                </Link>
                             </div>
                         </div>
                     </a>
@@ -60,13 +62,13 @@ const Navbar = () => {
                             </a>
                         </div>
 
-                        <NavLink to="register" class=" whitespace-nowrap text-base  text-gray-500 hover:text-gray-900">
+                        <NavLink to="MarketPlace_AisModa/register" class=" whitespace-nowrap text-base  text-gray-500 hover:text-gray-900">
                             <img class="m-1 inline-block h-5 w-5 rounded-full ring-2 ring-white" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="" />
                             Sign in
                         </NavLink>
-                        <a href="#" class=" mx-4 whitespace-nowrap text-base  text-red-800 hover:text-gray-900"> Cart
+                        <Link  to="MarketPlace_AisModa/cart"  class=" mx-4 whitespace-nowrap text-base  text-red-800 hover:text-gray-900"> Cart
                             ( 0 )
-                        </a>
+                        </Link>
                         {/* <a href="#" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Login</a> */}
                     </div>
                 </div>
@@ -74,7 +76,7 @@ const Navbar = () => {
 
             <nav class="flex justify-center my-3">
                 <div>
-                    <NavLink to="/"  href="#" class="mx-8 text-base  text-gray-500 hover:text-red-900"> Pricing </NavLink>
+                    <NavLink to="MarketPlace_AisModa/cart"  href="#" class="mx-8 text-base  text-gray-500 hover:text-red-900"> Cart </NavLink>
                     <a href="#" class="mx-8 text-base  text-gray-500 hover:text-red-900"> Docs </a>
                     <a href="#" class="mx-8 text-base  text-gray-500 hover:text-red-900"> Docs </a>
                     <a href="#" class="mx-8 text-base  text-gray-500 hover:text-red-900"> Docs </a>

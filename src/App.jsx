@@ -5,6 +5,7 @@ import Register from "./components/Register";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ProductView from "./components/ProductView";
 import Login from "./components/Login";
+import Cart from "./components/Cart";
 function App() {
   return (
     <>
@@ -14,10 +15,12 @@ function App() {
 
         <Routes>
 
-          <Route path="/" element={<HomePage />}/>
-          <Route path="productview/" element={<ProductView/>}/>
-          <Route path="register/" element={<Register/>}/>
-          <Route path="login/" element={<Login/>}/>
+          <Route path="MarketPlace_AisModa/" element={<HomePage />}/>
+          <Route path="MarketPlace_AisModa/productview/" element={<ProductView/>}/>
+          <Route path="MarketPlace_AisModa/register/" element={<Register/>}/>
+          <Route path="MarketPlace_AisModa/login/" element={<Login/>}/>
+          <Route path="MarketPlace_AisModa/cart/" element={<Cart/>}/>
+          
 
         </Routes>
 
