@@ -5,12 +5,11 @@ import ProductList from "./ProductList";
 
 const HomePage = () => {
     return (
-        <div>
-
+        <>
             <Header />
             <Categories />
             <ProductList />
-        </div>
+        </>
     )
 }
 
